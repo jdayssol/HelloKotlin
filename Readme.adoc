@@ -8,16 +8,14 @@ April 25, 2023
 Training project for Kotlin:
 
 - Hello World
-
 - Coding Game exercices
-
+- More in the future
 
 == First level heading
 
 This is a paragraph with a *bold* word and an _italicized_ word.
 
 .Image caption
-image::image-file-name.png[I am the image alt text.]
 
 This is another paragraph.footnote:[I am footnote text and will be displayed at the bottom of the article.]
 
