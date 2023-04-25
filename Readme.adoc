@@ -11,13 +11,17 @@ Training project for Kotlin:
 - Coding Game exercices
 - More in the future
 
-== First level heading
+== AWS Code Whisper
 
-This is a paragraph with a *bold* word and an _italicized_ word.
+Install AWS Toolkit
+Activate and connect with AWS ID in your IDE
 
-.Image caption
+Features:
+Autocompletion
+Call Code Whisper
+Option + C
 
-This is another paragraph.footnote:[I am footnote text and will be displayed at the bottom of the article.]
+.https://docs.aws.amazon.com/codewhisperer/latest/userguide/what-is-cwspr.html
 
 === Second level heading
 
