@@ -1,3 +1,5 @@
+package concept
+
 /**
  *
  */
@@ -5,7 +7,7 @@
 fun main(args: Array<String>) {
 
     /**
-     * Write a data class named Student with a firstName, lastName of type String
+     * Write a data class named concept.Student with a firstName, lastName of type String
      * and a grade with a type Char
      */
 

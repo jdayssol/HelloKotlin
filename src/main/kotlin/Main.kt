@@ -323,7 +323,7 @@ fun main(args: Array<String>) {
 
     // Same as printResult, but usin typeAlias it is easier to read
     // Unit return mean that the function return nothing
-    fun printResult2(function:operation, a : Int, b : Int) : Unit {
+    fun printResult2(function: operation, a : Int, b : Int) : Unit {
         val result = function(a,b)
         println(result)
     }

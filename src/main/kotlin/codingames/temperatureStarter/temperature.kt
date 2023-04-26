@@ -1,4 +1,4 @@
-package codingGames.temperatureStarter
+package codingames.temperatureStarter
 
 class Temperature {
 
@@ -8,11 +8,8 @@ class Temperature {
      * (for instance, if the temperatures are -5 and 5, then display 5).
      *
      * Your program must read the data from an integer table of temperature as integers ranging from -273 to 5526
-     *
-     * Output
+     * Output:
      * display and return 0 (zero) if no temperatures are provided. Otherwise, display and return the temperature closest to 0.
-     * Constraints
-     * 0 ≤ N < 10000
      **/
     fun  checkTemperature(tableTemp: IntArray) : Int{
 
@@ -20,7 +17,7 @@ class Temperature {
 
         // Your code here
 
-        System.out.println("Lowest temp is $closest");
+        println("Lowest temp is $closest");
         return closest;
     }
 

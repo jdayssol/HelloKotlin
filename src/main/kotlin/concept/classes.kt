@@ -1,20 +1,20 @@
-/*
+package concept/*
  ## CLASSES VS STRUCTURES
 
  Imagine you're writing a movie-viewing application in Kotlin.
  Users can create lists of movies and share those lists with other users.
 
- Create a `MovieList`  and a `MovieGoer` class
+ Create a `concept.MovieList`  and a `concept.MovieGoer` class
 
- - `MovieList` - Contains a genre String passed in the constructor
+ - `concept.MovieList` - Contains a genre String passed in the constructor
     and an array of movie titles set as a property.
     Create a `print` method that will print all the movies in the list.
- - `MovieGoer` - Add a method `addList(movieList)` which adds the given list
+ - `concept.MovieGoer` - Add a method `addList(movieList)` which adds the given list
     to a map of `movieList` objects (using the `genre` as a key).
-    Add a method `movieListFor(genre) : MovieList?`
-    that will return the Nullable `MovieList` for the provided genre.
+    Add a method `movieListFor(genre) : concept.MovieList?`
+    that will return the Nullable `concept.MovieList` for the provided genre.
     Add a method 'addMovie'(genre, movie) that will add a movie to the given genre
- - Create `jane` and `john` users in main and have them create and share lists.
+ - Create `jane` and `john` users in codingGames.temperatureFinished.main and have them create and share lists.
     Have both `jane` and `john` modify the same list and call `print` from both users.
     Are all the changes reflected?
 */
@@ -22,9 +22,9 @@
 /*
  ### Challenge 2
 Make movieList private and remove addList.
-Add a method to MovieList to add a movie and make movies private
-Create a new method in MovieGoer called addGenre that takes a genre and creates a new MovieList object.
-Update MovieGoer.addMovie to use the MovieList's addMovie method and check to see if the MovieList
+Add a method to concept.MovieList to add a movie and make movies private
+Create a new method in concept.MovieGoer called addGenre that takes a genre and creates a new concept.MovieList object.
+Update concept.MovieGoer.addMovie to use the concept.MovieList's addMovie method and check to see if the concept.MovieList
 exists before trying to add
 */
 
@@ -52,7 +52,7 @@ class MovieGoer {
         movieList[genre] = MovieList(genre)
     }
 
-//    fun addList( list: MovieList) {
+//    fun addList( list: concept.MovieList) {
 //        movieList[list.genre] = list
 //    }
 
@@ -74,7 +74,7 @@ fun main(args: Array<String>) {
 // Give John and Jane an "Action" list
     val jane = MovieGoer()
     val john = MovieGoer()
-//    val actionList = MovieList("Action")
+//    val actionList = concept.MovieList("Action")
 
 //    jane.addList(actionList)
 //    john.addList(actionList)

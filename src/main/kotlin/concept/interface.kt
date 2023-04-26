@@ -1,5 +1,7 @@
+package concept
+
 /**
- * Create a Shape interface with 2 integer properties named:
+ * Create a concept.Shape interface with 2 integer properties named:
  * width, height.
  * Add a function named draw
  */
@@ -12,7 +14,7 @@ interface  Shape {
 }
 
 /**
- * Create a Circle that takes these values in the constructor and implements the Shape
+ * Create a concept.Circle that takes these values in the constructor and implements the concept.Shape
  * Interface
  */
 // Your Solution Here
@@ -20,23 +22,23 @@ class Circle(): Shape {
     override var width: Double = 0.0
     override var height: Double = 0.0
     override fun draw() {
-        println("Draw Circle $width $height")
+        println("Draw concept.Circle $width $height")
     }
 }
 
 /**
- * Create a Line that takes these values in the constructor and implements the Shape
+ * Create a concept.Line that takes these values in the constructor and implements the concept.Shape
  * Interface
  */
 // Your Solution Here
 class Line (override var width: Double, override var height: Double): Shape {
     override fun draw() {
-        println("Draw Line $width $height")
+        println("Draw concept.Line $width $height")
     }
 }
 
 /**
- * Create a function named printShape that takes a shape and calls the draw method
+ * Create a function named concept.printShape that takes a shape and calls the draw method
  */
 // Your Solution Here
 fun printShape(shape: Shape){
@@ -44,7 +46,7 @@ fun printShape(shape: Shape){
 }
 
 /**
- * Create a circle and a line and call printShape on both
+ * Create a circle and a line and call concept.printShape on both
  */
 fun main(args: Array<String>) {
     // Your Solution Here

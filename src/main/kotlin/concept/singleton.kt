@@ -1,12 +1,14 @@
+package concept
+
 /**
- * Given the Student data class below, create a StudentRegistry
+ * Given the concept.Student data class below, create a concept.StudentRegistry
  * singleton that has a list of students and can add and remove a
  * student from that list.
  * 
  */
 data class Student(val firstName: String, val lastName: String)
 
-// Add the StudentRegistry class here
+// Add the concept.StudentRegistry class here
 
 // Your Solution Here
 object StudentRegistry {

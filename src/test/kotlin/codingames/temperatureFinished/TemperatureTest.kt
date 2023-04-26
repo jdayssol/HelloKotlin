@@ -1,6 +1,5 @@
-package codingGames.temperatureFinished
+package codingames.temperatureFinished
 
-import codingGames.temperatureFinished.Temperature
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
